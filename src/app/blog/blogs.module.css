@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: coral;
+    padding:15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.content{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-top:30px;
+}
+@media screen and (max-width: 770px) {
+    .content{
+        flex-direction: column;
+    }
+}

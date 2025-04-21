@@ -1,0 +1,25 @@
+.cardListWrapper{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    gap: 30px;
+}
+.header{
+    font-size: 24px;
+    font-weight: 700;
+}
+.cardsList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media screen and (max-width: 770px){
+    .cardListWrapper{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .cardListWrapper{
+        flex-direction: column;
+    }
+}

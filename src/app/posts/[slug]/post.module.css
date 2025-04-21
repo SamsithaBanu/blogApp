@@ -1,0 +1,103 @@
+.singlePostWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top:30px;
+}
+.topWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.leftWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50%;
+}
+.header {
+  font-size: 50px;
+  font-weight: 700;
+}
+.authorWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+.authorImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.author {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.name {
+  font-size: 15px;
+  font-weight: 500;
+}
+.date {
+  font-size: 14px;
+  font-weight: 400;
+}
+.rightWrapper {
+  width: 50%;
+}
+.postImage {
+  height: 330px;
+  width: 600px;
+}
+.bottomWrapper{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    margin-top:20px;
+}
+.leftBottomWrapper{
+    min-width: 60%;
+}
+.descriptionWrapper{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    font-size: 16px;
+}
+@media screen and (max-width: 1030px) {
+  .postImage {
+    height: 320px;
+    width: 420px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .topWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .leftWrapper, .rightWrapper{
+    width: 100%;
+  }
+  .postImage {
+    height: 360px;
+    width: 100%;
+  }
+  .bottomWrapper{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin-top:20px;
+}
+.leftBottomWrapper{
+  min-width: 100%;
+}
+}
+

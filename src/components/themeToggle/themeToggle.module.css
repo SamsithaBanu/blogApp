@@ -1,0 +1,16 @@
+.toggleWrapper {
+  width: 35px;
+  height: 20px;
+  border-radius: 8px;
+  position: relative;
+  background-color: #0f172a;
+  padding: 2px;
+  cursor: pointer;
+}
+.ball {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+}
