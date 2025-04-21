@@ -5,7 +5,7 @@ import styles from './cardlist.module.css';
 import Pagination from '../pagination/Pagination';
 
 const getData = async (page,cat) => {
-  const base_url = process.env.MODE === 'development' ? "http://localhost:3000": "";
+  const base_url = process.env.MODE === 'development' ? "http://localhost:3000": "http://localhost:3000";
   
   const response = await fetch(`${base_url}/api/posts?page=${page}&cat=${cat || ''}`, {
     cache: 'no-store'

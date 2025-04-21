@@ -22,7 +22,7 @@ const fetcher = async (url) => {
 
 export const Comments = ({postSlug}) => {
   const { status } = useSession();
-  const base_url = process.env.MODE === 'development' ? "http://localhost:3000": "";
+  const base_url = process.env.MODE === 'development' ? "http://localhost:3000": "http://localhost:3000";
   
   const { data, mutate, isLoading } = useSWR(
     `${base_url}/api/comments?postSlug=${postSlug}`,
