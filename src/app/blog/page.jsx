@@ -1,9 +1,9 @@
 import { CardList } from "@/components/cardList/CardList";
-import { Menu } from "@/components/menu/Menu";
+import { Menu } from "@/components/Menu/Menu";
 import React from "react";
 import styles from "./blogs.module.css";
 
-const page = ({ searchParams }) => {
+const Page = ({ searchParams }) => {
   const page = parseInt(searchParams.page) || 1;
   const { cat } = searchParams;
   return (
@@ -16,4 +16,4 @@ const page = ({ searchParams }) => {
     </div>
   );
 };
-export default page;
+export default Page;

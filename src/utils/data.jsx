@@ -42,7 +42,7 @@ export const cardLists = [
     id: 1,
     title: "Easiest Way for React State Management",
     description:
-      "Managing state in React doesn't have to be hard. Learn the simplest and most efficient way to handle app-wide state. Say goodbye to prop drilling and hello to clean, scalable code.",
+      "Managing state in React doesn&apos;t have to be hard. Learn the simplest and most efficient way to handle app-wide state. Say goodbye to prop drilling and hello to clean, scalable code.",
     date: "2025-08-23",
     image: "/state-management.png",
     type: "coding"
@@ -51,7 +51,7 @@ export const cardLists = [
     id: 2,
     title: "New Visual Feature is a Game Changer",
     description:
-      "Our latest visual upgrade isn't just eye candy—it's powerful. Designed to enhance user experience and streamline navigation. Discover how this feature is transforming the way users interact.",
+      "Our latest visual upgrade isn&apos;t just eye candy—it&apos;s powerful. Designed to enhance user experience and streamline navigation. Discover how this feature is transforming the way users interact.",
     date: "2025-08-23",
     image: "/culture-image.jpg",
     type: "culture"
@@ -60,16 +60,16 @@ export const cardLists = [
     id: 3,
     title: "What nobody tells you about taking a career break",
     description:
-      "Taking a career break isn't always as glamorous—or as risky—as people think. From unexpected growth to silent struggles, there's more beneath the surface. Here's the honest truth no one talks about when you hit pause on your career.",
+      "Taking a career break isn&apos;t always as glamorous—or as risky—as people think. From unexpected growth to silent struggles, there&apos;s more beneath the surface. Here&apos;s the honest truth no one talks about when you hit pause on your career.",
     date: "2025-08-23",
     image: "/career-break.jpg",
     type: "coding"
   },
   {
     id: 4,
-    title: "Think Twice When Using '&&' Operator for Conditional Rendering",
+    title: "Think Twice When Using &apos;&&&apos; Operator for Conditional Rendering",
     description:
-      "The && operator seems like a quick fix for conditionally rendering in React. But hidden pitfalls can break your UI in subtle ways. Here's why you should pause before using it—and what to use instead.",
+      "The && operator seems like a quick fix for conditionally rendering in React. But hidden pitfalls can break your UI in subtle ways. Here&apos;s why you should pause before using it—and what to use instead.",
     date: "2025-08-23",
     image: "/conditional.jpg",
     type: "coding"
@@ -78,7 +78,7 @@ export const cardLists = [
     id: 5,
     title: "Some Things I Wish I could Do Again",
     description:
-      "Life moves fast, and some moments slip away before we realize their worth. From small joys to big chances, there are things I'd relive in a heartbeat. This is a reflection on the memories I'd rewind—if only I could.",
+      "Life moves fast, and some moments slip away before we realize their worth. From small joys to big chances, there are things I&apos;d relive in a heartbeat. This is a reflection on the memories I&apos;d rewind—if only I could.",
     date: "2025-08-23",
     image: "/conditionall.jpg",
     type: ""
@@ -87,7 +87,7 @@ export const cardLists = [
     id: 6,
     title: "What nobody tells you about taking a career break",
     description:
-      "Taking a career break isn't always as glamorous—or as risky—as people think. From unexpected growth to silent struggles, there's more beneath the surface. Here's the honest truth no one talks about when you hit pause on your career.",
+      "Taking a career break isn&apos;t always as glamorous—or as risky—as people think. From unexpected growth to silent struggles, there&apos;s more beneath the surface. Here&apos;s the honest truth no one talks about when you hit pause on your career.",
     date: "2025-08-23",
     image: "/career-break.jpg",
     type: "coding"
@@ -173,7 +173,7 @@ export const SinglePost = [
     id: 1,
     title: "Easiest Way for React State Management",
     description:
-      "Managing state in React doesn't have to be hard. Learn the simplest and most efficient way to handle app-wide state. Say goodbye to prop drilling and hello to clean, scalable code.",
+      "Managing state in React doesn&apos;t have to be hard. Learn the simplest and most efficient way to handle app-wide state. Say goodbye to prop drilling and hello to clean, scalable code.",
     date: "2025-08-23",
     image: "/state-management.png",
     type: "coding",

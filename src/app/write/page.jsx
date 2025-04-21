@@ -11,7 +11,7 @@ import { ThemeContext } from '@/context/ThemeContext';
 import { useSession } from 'next-auth/react';
 import { useRouter } from "next/navigation";
 
-const page = () => {
+const Page = () => {
   const {status} = useSession();
   const router = useRouter();
   const [catSlug, setCatSlug] = useState('');

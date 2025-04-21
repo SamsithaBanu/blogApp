@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./post.module.css";
 import { SinglePost } from "@/utils/data";
-import { Menu } from "@/components/menu/Menu";
+import { Menu } from "@/components/Menu/Menu";
 import { Comments } from "@/components/comments/Comments";
 
 const getData = async (slug) => {
@@ -19,7 +19,7 @@ const getData = async (slug) => {
   return res.json();
 };
 
-const page = async({params}) => {
+const Page = async({params}) => {
   const {slug} = await params;
   const data = await getData(slug);
 
@@ -66,4 +66,4 @@ const page = async({params}) => {
   );
 };
 
-export default page;
+export default Page;

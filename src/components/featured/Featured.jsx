@@ -19,7 +19,7 @@ export const Featured = () => {
             write.
           </div>
           <div className={styles.subText}>
-            Whether you're an aspiring artist, a curious thinker, or simply
+            Whether you&apos;re an aspiring artist, a curious thinker, or simply
             looking to add a touch of creativity to your routine, our journey
             together will remind you that creativity knows no bounds. Get ready
             to unlock a world of innovation and self-expression!

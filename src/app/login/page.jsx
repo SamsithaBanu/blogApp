@@ -4,7 +4,7 @@ import { signIn, useSession } from "next-auth/react";
 import styles from "./login.module.css";
 import { useRouter } from "next/navigation";
 
-const page = () => {
+const Page = () => {
   const { status, data } = useSession();
 
   const router = useRouter();
@@ -30,4 +30,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
