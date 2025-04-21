@@ -1,5 +1,5 @@
 import { CardList } from "@/components/cardList/CardList";
-import { Menu } from "@/components/Menu/Menu";
+import { Menu } from "@/components/menu/Menu";
 import React from "react";
 import styles from "./blogs.module.css";
 

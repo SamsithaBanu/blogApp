@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./post.module.css";
 import { SinglePost } from "@/utils/data";
-import { Menu } from "@/components/Menu/Menu";
+import { Menu } from "@/components/menu/Menu";
 import { Comments } from "@/components/comments/Comments";
 
 const getData = async (slug) => {
